@@ -1,4 +1,7 @@
-<?php get_header()?>
+<?php/**
+* @package tunnels
+*/
+ get_header()?>
 <?php get_siderbar()?>
 <div id="left">
 	<?php while(have_posts()): the_post()?>
@@ -10,7 +13,7 @@
 	
 </div>
 	 
-	<?php comments_template('', true)
+	<?php comments_template('', true)?>
 	
 
 

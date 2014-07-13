@@ -1,7 +1,10 @@
+<?php/**
+* @package tunnels
+*/?>
 </div>
 
 <footer>
-<?php Copyright date('Y') ?> 
+Copyright <?php  date('Y') ?> 
 </footer>
 </body>
 </html>

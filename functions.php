@@ -1,9 +1,12 @@
-<?php 
+<?php /**
+* @package tunnels
+*/
+
 
 register_sidebar (array(
 	'name' => __('1st Right Sidebar'),
 	'id' => 'first-right-sidebar',
-	'description' => 'The top bar'
+	'description' => 'The top bar',
 	'before_widget' => '<div>',
 	'after_widget' => '</div>'
 	));
@@ -11,7 +14,7 @@ register_sidebar (array(
 	register_sidebar (array(
 	'name' => __('2nd Right Sidebar'),
 	'id' => 'second-right-sidebar',
-	'description' => 'The second top bar'
+	'description' => 'The second top bar',
 	'before_widget' => '<div>',
 	'after_widget' => '</div>'
 	));

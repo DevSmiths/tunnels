@@ -1,21 +1,17 @@
 /*
-Theme name: Tunnel
+Theme name: tunnel
 Theme URI: http://devsmiths.co.uk
 Description: Streamline theme to fit basic user functions
 Author: Sam Smith
 Author URL: http://devsmiths.co.uk
 Version: 1.0
 Tags: two-colums, responsive
-
-Licence:
-Licence URI:
+@package tunnels
 */
-/* Reset */
 /* Structure */
 body {
 	background: silver;
 	font: 16px arial, sans-serif;
-	
 }
 
 #container {
@@ -55,8 +51,3 @@ nav ul li {
 	width: 590px;
 	border: 4px solid gray;
 }
-
-/* Text Rules */
-h1 {font-size:20px;}
-h2 {font-size: 22px;}
-h3 {font-size: 18px;}

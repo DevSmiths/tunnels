@@ -1,3 +1,6 @@
+<?php /**
+*@package tunnels
+*/?>
 <div id="sidebar">
 
 	<h3>Sidebar</h3>
