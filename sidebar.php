@@ -1,12 +1,15 @@
-<?php /**
-*@package tunnels
-*/?>
-<div id="sidebar">
+<?php
+/**
+ * The sidebar containing the main widget area.
+ *
+ * @package tunnels
+ */
 
-	<h3>Sidebar</h3>
+if ( ! is_active_sidebar( 'sidebar-1' ) ) {
+	return;
+}
+?>
 
-	<?php dynamic_sidebar('first-right-sidebar');?>
-	
-	<?php dynamic_sidebar('second-right-sidebar');?>
-
-</div>
+<div id="secondary" class="widget-area" role="complementary">
+	<?php dynamic_sidebar( 'sidebar-1' ); ?>
+</div><!-- #secondary -->
